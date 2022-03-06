@@ -52,7 +52,7 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         theme: theme(),
         onGenerateRoute: AppRouter.onGenerateRoute,
-        initialRoute: OrderConfirmation.routeName,
+        initialRoute: SplashScreen.routeName,
       ),
     );
   }

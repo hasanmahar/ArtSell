@@ -73,7 +73,7 @@ class OrderConfirmation extends StatelessWidget {
                   OrderSummary(),
                   SizedBox(height: 20),
                   Text(
-                    'ORDER DETAILS',
+                    'ORDER DETAILS (this portion is dummy because the payments procedures need financial steps)',
                     style: Theme.of(context).textTheme.headline5,
                   ),
                   Divider(thickness: 2),
