@@ -26,19 +26,19 @@ class Category extends Equatable {
 
   static List<Category> categories = [
     Category(
-      name: 'Soft Drinks',
+      name: 'Photography',
       imageUrl:
-          'https://images.unsplash.com/photo-1534057308991-b9b3a578f1b1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80', //https://unsplash.com/photos/5lZhD2qQ2SE
+          'https://images.unsplash.com/photo-1548502499-ef49e8cf98d4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8cGhvdG9ncmFwaHl8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60',
     ),
     Category(
-      name: 'Smoothies',
+      name: 'Art Work',
       imageUrl:
-          'https://images.unsplash.com/photo-1502741224143-90386d7f8c82?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80', //https://unsplash.com/photos/m741tj4Cz7M
+          'https://i.pinimg.com/564x/45/3c/90/453c90330f1316cc4b13d250e8008cfb.jpg',
     ),
     Category(
-      name: 'Water',
+      name: 'Character Design Art',
       imageUrl:
-          'https://images.unsplash.com/photo-1559839914-17aae19cec71?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80', //https://unsplash.com/photos/7Zlds3gm7NU
+          'https://cdn.mos.cms.futurecdn.net/MYTQFKrgX9DmZh6EfhWDHn-970-80.jpg.webp',
     ),
   ];
 }
