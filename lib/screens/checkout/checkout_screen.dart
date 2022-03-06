@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_ecommerce_app/blocs/checkout/checkout_bloc.dart';
-import 'package:flutter_ecommerce_app/widgets/widgets.dart';
+import 'package:artsell/blocs/checkout/checkout_bloc.dart';
+import 'package:artsell/widgets/widgets.dart';
 
 class CheckoutScreen extends StatelessWidget {
   static const String routeName = '/checkout';

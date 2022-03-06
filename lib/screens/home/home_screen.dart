@@ -1,11 +1,11 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_ecommerce_app/blocs/category/category_bloc.dart';
-import 'package:flutter_ecommerce_app/blocs/product/product_bloc.dart';
-import 'package:flutter_ecommerce_app/models/models.dart';
-import 'package:flutter_ecommerce_app/repositories/category/category_repository.dart';
-import 'package:flutter_ecommerce_app/widgets/widgets.dart';
+import 'package:artsell/blocs/category/category_bloc.dart';
+import 'package:artsell/blocs/product/product_bloc.dart';
+import 'package:artsell/models/models.dart';
+import 'package:artsell/repositories/category/category_repository.dart';
+import 'package:artsell/widgets/widgets.dart';
 
 class HomeScreen extends StatelessWidget {
   static const String routeName = '/';

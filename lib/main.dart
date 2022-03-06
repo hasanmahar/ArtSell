@@ -1,17 +1,18 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_ecommerce_app/blocs/cart/cart_bloc.dart';
-import 'package:flutter_ecommerce_app/blocs/category/category_bloc.dart';
-import 'package:flutter_ecommerce_app/blocs/checkout/checkout_bloc.dart';
-import 'package:flutter_ecommerce_app/blocs/product/product_bloc.dart';
-import 'package:flutter_ecommerce_app/blocs/wishlist/wishlist_bloc.dart';
-import 'package:flutter_ecommerce_app/config/theme.dart';
-import 'package:flutter_ecommerce_app/config/app_router.dart';
-import 'package:flutter_ecommerce_app/repositories/category/category_repository.dart';
-import 'package:flutter_ecommerce_app/repositories/checkout/checkout_repository.dart';
-import 'package:flutter_ecommerce_app/screens/screens.dart';
-import 'package:flutter_ecommerce_app/simple_bloc_observer.dart';
+import 'package:artsell/blocs/cart/cart_bloc.dart';
+import 'package:artsell/blocs/category/category_bloc.dart';
+import 'package:artsell/blocs/checkout/checkout_bloc.dart';
+import 'package:artsell/blocs/product/product_bloc.dart';
+import 'package:artsell/blocs/wishlist/wishlist_bloc.dart';
+import 'package:artsell/config/theme.dart';
+import 'package:artsell/config/app_router.dart';
+import 'package:artsell/repositories/category/category_repository.dart';
+import 'package:artsell/repositories/checkout/checkout_repository.dart';
+import 'package:artsell/screens/order_confirmation/order_confirmation_screen.dart';
+import 'package:artsell/screens/screens.dart';
+import 'package:artsell/simple_bloc_observer.dart';
 
 import 'repositories/product/product_repository.dart';
 
@@ -51,7 +52,7 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         theme: theme(),
         onGenerateRoute: AppRouter.onGenerateRoute,
-        initialRoute: SplashScreen.routeName,
+        initialRoute: OrderConfirmation.routeName,
       ),
     );
   }

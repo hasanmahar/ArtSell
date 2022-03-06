@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ecommerce_app/models/models.dart';
-import 'package:flutter_ecommerce_app/screens/screens.dart';
+import 'package:artsell/models/models.dart';
+import 'package:artsell/screens/order_confirmation/order_confirmation_screen.dart';
+import 'package:artsell/screens/screens.dart';
 
 import '../screens/screens.dart';
 
@@ -24,6 +25,8 @@ class AppRouter {
         return WishlistScreen.route();
       case CheckoutScreen.routeName:
         return CheckoutScreen.route();
+      case OrderConfirmation.routeName:
+        return OrderConfirmation.route();
       default:
         return _errorRoute();
     }

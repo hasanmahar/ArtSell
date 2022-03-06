@@ -2,9 +2,9 @@ import 'dart:async';
 
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:flutter_ecommerce_app/blocs/cart/cart_bloc.dart';
-import 'package:flutter_ecommerce_app/models/models.dart';
-import 'package:flutter_ecommerce_app/repositories/checkout/checkout_repository.dart';
+import 'package:artsell/blocs/cart/cart_bloc.dart';
+import 'package:artsell/models/models.dart';
+import 'package:artsell/repositories/checkout/checkout_repository.dart';
 
 part 'checkout_event.dart';
 part 'checkout_state.dart';

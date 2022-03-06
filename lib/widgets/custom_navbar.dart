@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_ecommerce_app/blocs/cart/cart_bloc.dart';
-import 'package:flutter_ecommerce_app/blocs/checkout/checkout_bloc.dart';
-import 'package:flutter_ecommerce_app/blocs/wishlist/wishlist_bloc.dart';
-import 'package:flutter_ecommerce_app/models/models.dart';
+import 'package:artsell/blocs/cart/cart_bloc.dart';
+import 'package:artsell/blocs/checkout/checkout_bloc.dart';
+import 'package:artsell/blocs/wishlist/wishlist_bloc.dart';
+import 'package:artsell/models/models.dart';
 
 class CustomNavBar extends StatelessWidget {
   final String screen;
@@ -37,6 +37,8 @@ class CustomNavBar extends StatelessWidget {
       case '/catalog':
         return _buildNavBar(context);
       case '/wishlist':
+        return _buildNavBar(context);
+      case '/order-confirmation':
         return _buildNavBar(context);
       case '/product':
         return _buildAddToCartNavBar(context, product);
@@ -158,6 +160,8 @@ class CustomNavBar extends StatelessWidget {
                 context
                     .read<CheckoutBloc>()
                     .add(ConfirmCheckout(checkout: state.checkout));
+
+                Navigator.pushNamed(context, '/order-confirmation');
               },
               style: ElevatedButton.styleFrom(
                 primary: Colors.white,
