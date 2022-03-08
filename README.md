@@ -1,6 +1,6 @@
 <h2>ARTSELL</h2>
 
-### <b>Project for software engineering</b>
+### <b>Project development details</b>
 
 <br/>
 
