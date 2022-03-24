@@ -12,8 +12,8 @@ I am a digital artist. I recently found out lots of people like my arts and want
 
 ## Project description and objectives
 
-### <b>Github repo link: [repo] (https://github.com/hasanmahar/ArtSell.git)</b>
-### <b>Zip link: [link] (https://drive.google.com/file/d/1EUKhu7OBAU-gusoQ1bk44ULBhF8JexfE/view?usp=sharing)</b>
+### <b>Github repo link: [repo](https://github.com/hasanmahar/ArtSell.git)</b>
+### <b>Zip link: [link](https://drive.google.com/file/d/1EUKhu7OBAU-gusoQ1bk44ULBhF8JexfE/view?usp=sharing)</b>
 
 <ul>
 <li>A Responsive UI for Users</li>
